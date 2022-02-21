@@ -38,7 +38,7 @@ require 'includes/form_handlers/login_handler.php';
 		<div class="login_box">
 
 			<div class="login_header">
-				<h1>Hello, Welcome to My Blog Post!</h1>
+				<h1>Hello, Welcome!</h1>
 				Login or sign up below!
 			</div>
 			<br>
@@ -107,7 +107,7 @@ require 'includes/form_handlers/login_handler.php';
 					<input type="text" name="reg_password2" placeholder="Confirm Password" required>
 					<br>
 					<?php if(in_array("Your passwords do not match<br>", $error_array)) echo "Your passwords do not match<br>"; 
-					else if(in_array("Your password can only contain english characters or numbers<br>", $error_array)) echo "Your password can only contain english characters or numbers<br>";
+					else if(in_array("Your password can only contain english characters or numbers<br>", $error_array)) echo "Your password can only contain English characters or numbers<br>";
 					else if(in_array("Your password must be betwen 5 and 30 characters<br>", $error_array)) echo "Your password must be betwen 5 and 30 characters<br>"; ?>
 
 

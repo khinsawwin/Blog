@@ -41,7 +41,7 @@ else {
 	<div class="top_bar"> 
 
 		<div class="logo">
-			<a href="index.php">Swirlfeed!</a>
+			<a href="index.php">Hello!</a>
 		</div>
 
 
