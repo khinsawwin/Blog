@@ -7,7 +7,7 @@ require 'includes/form_handlers/login_handler.php';
 
 <html>
 <head>
-	<title>Hello Friends</title>
+	<title>Welcome to My Blog</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/register_style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="assets/js/register.js"></script>
@@ -102,9 +102,9 @@ require 'includes/form_handlers/login_handler.php';
 					else if(in_array("Emails don't match<br>", $error_array)) echo "Emails don't match<br>"; ?>
 
 
-					<input type="text" name="reg_password" placeholder="Password" required>
+					<input type="password" name="reg_password" placeholder="Password" required>
 					<br>
-					<input type="text" name="reg_password2" placeholder="Confirm Password" required>
+					<input type="password" name="reg_password2" placeholder="Confirm Password" required>
 					<br>
 					<?php if(in_array("Your passwords do not match<br>", $error_array)) echo "Your passwords do not match<br>"; 
 					else if(in_array("Your password can only contain english characters or numbers<br>", $error_array)) echo "Your password can only contain English characters or numbers<br>";
